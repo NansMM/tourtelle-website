@@ -9,6 +9,7 @@
     <script src="./scroll.js" type="module"></script>
   </head>
   <body class="bg-gray-100 dark:bg-gray-900">
+    <div id="top"></div>
     <header
       class="fixed top-0 w-full bg-transparent p-4 text-gray-800 transition-all dark:text-white"
     >
@@ -25,8 +26,9 @@
               d="M435.855 136.679c-7.368 0-13.342 5.972-13.342 13.342 0 22.275-9.158 85.64-29.516 156.764-2.028 7.082 2.071 14.47 9.154 16.496 7.053 2.028 14.464-2.049 16.497-9.154 21.069-73.606 30.546-140.273 30.546-164.105.003-7.37-5.971-13.343-13.339-13.343zM150.388 62.434c-48.295 0-87.588 39.291-87.588 87.586 0 7.37 5.974 13.342 13.342 13.342s13.342-5.972 13.342-13.342c0-33.582 27.32-60.902 60.904-60.902 7.368 0 13.342-5.972 13.342-13.342s-5.974-13.342-13.342-13.342z"
             />
           </svg>
-          <span class="hidden text-2xl font-bold uppercase sm:block"
-            >Cabinet dentaire la Tourtelle</span
+          <span class="text-2xl font-bold uppercase"
+            ><span class="hidden sm:inline-block">Cabinet dentaire</span> la
+            Tourtelle</span
           >
         </a>
         <div>
@@ -66,7 +68,6 @@
           </a>
         </div>
       </section>
-      <div id="scroll"></div>
       <section id="plan" class="p-4">
         <div class="grid md:grid-cols-2">
           <iframe
@@ -81,9 +82,7 @@
       </section>
     </main>
     <footer class="bg-red-600 p-4 text-white">
-      <div
-        class="mx-auto flex max-w-screen-xl flex-col justify-between sm:flex-row sm:items-center"
-      >
+      <div class="mx-auto flex max-w-screen-xl items-center justify-between">
         <p>© 2024 Tous droits réservés</p>
         <div class="flex gap-4">
           <a href="#">
